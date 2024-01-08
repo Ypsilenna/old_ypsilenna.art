@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="artworks">
+{{ range .Pages.ByPublishDate.Reverse }}
+  <div class="artworks-item">
+    <a data-magnify="gallery" data-src="{{ .Params.cover }}" data-caption="{{ .Title }}" data-group="a" href="{{ .Params.cover }}">
+    <img src="{{ .Params.thumbnail }}" alt=""></a><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+{{ end }}
+</div>
+{{ end }}
+
+

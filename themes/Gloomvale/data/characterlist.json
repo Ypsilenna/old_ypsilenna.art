@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Anshrilda",
+        "avatarUrl": "https://i0.wp.com/ypsilenna.art/wp-content/uploads/2023/02/anshrilda-portrait.jpg",
+        "status": "yes",
+        "characterprofile": "https://ypsilenna.art/worldbuilding/characters/marcy/"
+    },
+    {
+        "id": "2",
+        "name": "Ambly Odipsas",
+        "avatarUrl": "https://i0.wp.com/ypsilenna.art/wp-content/uploads/2023/02/amblyodipsas-portrait.jpg",
+        "status": "no",
+        "characterprofile": ""
+    },
+    {
+        "id": "3",
+        "name": "Ambly Odipsas",
+        "avatarUrl": "https://i0.wp.com/ypsilenna.art/wp-content/uploads/2023/02/amblyodipsas-portrait.jpg",
+        "status": "no",
+        "characterprofile": "none"
+    },
+    {
+        "id": "4",
+        "name": "Ambly Odipsas",
+        "avatarUrl": "https://i0.wp.com/ypsilenna.art/wp-content/uploads/2023/02/amblyodipsas-portrait.jpg",
+        "status": "no",
+        "characterprofile": "none"
+    }
+]

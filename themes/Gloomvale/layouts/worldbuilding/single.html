@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="character-list">
+{{ range .Site.Data.characterlist }}
+<a href="{{.characterprofile}}">
+    <div class="character-list-item">
+        <img src="{{.avatarUrl}}" class="character-active{{.status}}">
+        <div class="character-tag">{{.name}}</div>
+    </div>
+</a>
+{{end}}
+</div>
+
+{{ end }}
+

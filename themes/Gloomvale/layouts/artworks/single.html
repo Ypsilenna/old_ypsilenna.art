@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h1><a href="{{ .LinkTitle }}">{{ .Title }}</a></h1>
+{{ partial "metadata.html" . }}
+<a href ="{{ .Params.cover }}" data-lightbox="image-1" data-title="My caption"></a>
+<br><br>
+{{ .Content }}
+{{ end }}
+

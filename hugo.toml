@@ -1,0 +1,6 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'Court of Gloomvale'
+theme = "Gloomvale"
+paginate = "5"
+enableEmoji ="true"

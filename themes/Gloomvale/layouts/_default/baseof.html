@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body><div class="bubbles">    {{- partial "menu.html" . -}}
+        {{- partial "header.html" . -}}
+        <div class="content-frame"><div id="content">
+        {{- block "main" . }}{{- end }}
+        </div></div>
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </div></body>
+</html>

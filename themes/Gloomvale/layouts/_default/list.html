@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+<p>
+    <div id="blogentry">{{ .Params.moods }} {{ .Params.bonus }} <a href="{{ .RelPermalink }}">{{ .Title }} {{ .Date | time.Format ":date_short" }} </a></div>
+    <a class="summary" href="{{ .RelPermalink }}">
+        <div id="latestblog-bottom"><p>{{ .Summary }}</p></div>
+    </a>
+</p> 
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+{{ range .Paginator.Pages }}
+{{ end }}
+
+
+
+{{ end }}
