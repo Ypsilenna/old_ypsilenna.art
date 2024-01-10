@@ -8,7 +8,7 @@
   {{ end }}
 </div><br>
 <div id="sector1">
-<div id="sector1-left"><img src="{{ .Site.Url }}/themes/Gloomvale/assets/images/ymrepng.png?raw=true"><div id="sector1-right"> <div id="latestart-title"><h3>Latest artworks</h3></div><br><div style="clear:both"></div> <div class="artworks">
+<div id="sector1-left"><img src="{{ .BaseUrl }}/themes/Gloomvale/assets/images/ymrepng.png?raw=true"><div id="sector1-right"> <div id="latestart-title"><h3>Latest artworks</h3></div><br><div style="clear:both"></div> <div class="artworks">
 {{ range where site.RegularPages "Type" "artworks" | first 8}}
   <div class="artworks-item">
     <a data-magnify="gallery" data-src="{{ .Params.cover }}" data-caption="{{ .Title }}" data-group="a" href="{{ .Params.cover }}">
