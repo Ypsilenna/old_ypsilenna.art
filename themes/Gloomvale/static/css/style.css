@@ -16,14 +16,14 @@ a{
 }
 
 .bubbles{
-  background-image: url("https://ypsilenna.art/wp-content/uploads/2023/10/bubblesv1.png"), url("https://ypsilenna.art/wp-content/uploads/2023/10/feeshsmall.png");
-  background-repeat: repeat-x, repeat-x;
-  background-position: center, bottom;
+  background-image: url("https://github.com/Ypsilenna/ypsilenna.github.io/blob/main/themes/Gloomvale/assets/images/bubblesv1.png?raw=true");
+  background-repeat: repeat-x;
+  background-position: center;
 
 }
 
 #header{
-  background-image: url("https://ypsilenna.art/wp-content/uploads/2023/10/nii.png");
+  background-image: url("https://github.com/Ypsilenna/ypsilenna.github.io/blob/main/themes/Gloomvale/assets/images/nii.png?raw=true");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 612px 252px;
